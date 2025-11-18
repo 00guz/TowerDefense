@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 83bc53cc6c498c64cb0dd1d6ffad0efe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3868524545762988639
+    second: Snow_Gardens_0
+  - first:
+      213: -2291613610316536963
+    second: Snow_Gardens_1
+  - first:
+      213: 6048493259629319127
+    second: Snow_Gardens_2
+  - first:
+      213: 5556207808860716188
+    second: Snow_Gardens_3
+  - first:
+      213: -6006561813624795154
+    second: Snow_Gardens_4
+  - first:
+      213: 426102546579936001
+    second: Snow_Gardens_5
+  - first:
+      213: -3286684491924069891
+    second: Snow_Gardens_6
+  - first:
+      213: 2569578426432942645
+    second: Snow_Gardens_7
+  - first:
+      213: -3688535886439365107
+    second: Snow_Gardens_8
+  - first:
+      213: 3658285948073138731
+    second: Snow_Gardens_9
+  - first:
+      213: 1507479712321478479
+    second: Snow_Gardens_10
+  - first:
+      213: 1947852553713283309
+    second: Snow_Gardens_11
+  - first:
+      213: -8708177794444657100
+    second: Snow_Gardens_12
+  - first:
+      213: -3932384236317272004
+    second: Snow_Gardens_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snow_Gardens_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 746
+        width: 155
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52151bf392cfa530800000000000000
+      internalID: 3868524545762988639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 746
+        width: 138
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73e1aa109d8230e0800000000000000
+      internalID: -2291613610316536963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 746
+        width: 237
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3dc86c29090f350800000000000000
+      internalID: 6048493259629319127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_3
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 746
+        width: 191
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cf469609d9b1d40800000000000000
+      internalID: 5556207808860716188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 454
+        width: 254
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefc779cad764aca0800000000000000
+      internalID: -6006561813624795154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_5
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 454
+        width: 245
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10359ce2202d9e500800000000000000
+      internalID: 426102546579936001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_6
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 454
+        width: 245
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1a4124ed95362d0800000000000000
+      internalID: -3286684491924069891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_7
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 425
+        width: 177
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532fa02f6f9f8a320800000000000000
+      internalID: 2569578426432942645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 300
+        width: 258
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06408b6720bfccc0800000000000000
+      internalID: -3688535886439365107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 221
+        width: 258
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ad3b5ffa7d4c230800000000000000
+      internalID: 3658285948073138731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_10
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 158
+        width: 258
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f9707bfc4abe410800000000000000
+      internalID: 1507479712321478479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_11
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 50
+        width: 151
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0fae2d399280b10800000000000000
+      internalID: 1947852553713283309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 14
+        width: 171
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e7e211f66562780800000000000000
+      internalID: -8708177794444657100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_Gardens_13
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 14
+        width: 258
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3896f92f5d5d69c0800000000000000
+      internalID: -3932384236317272004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snow_Gardens_0: 3868524545762988639
+      Snow_Gardens_1: -2291613610316536963
+      Snow_Gardens_10: 1507479712321478479
+      Snow_Gardens_11: 1947852553713283309
+      Snow_Gardens_12: -8708177794444657100
+      Snow_Gardens_13: -3932384236317272004
+      Snow_Gardens_2: 6048493259629319127
+      Snow_Gardens_3: 5556207808860716188
+      Snow_Gardens_4: -6006561813624795154
+      Snow_Gardens_5: 426102546579936001
+      Snow_Gardens_6: -3286684491924069891
+      Snow_Gardens_7: 2569578426432942645
+      Snow_Gardens_8: -3688535886439365107
+      Snow_Gardens_9: 3658285948073138731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

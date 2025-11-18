@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 2a9308ff8f44c4947a2397516374f385
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6903654510003790317
+    second: Projectiles_particles_0
+  - first:
+      213: 939165153046530115
+    second: Projectiles_particles_1
+  - first:
+      213: -6752661309900554072
+    second: Projectiles_particles_2
+  - first:
+      213: -7841029206971339817
+    second: Projectiles_particles_3
+  - first:
+      213: 4787402760338776826
+    second: Projectiles_particles_4
+  - first:
+      213: -2703877945805414262
+    second: Projectiles_particles_5
+  - first:
+      213: -8244855059363037458
+    second: Projectiles_particles_6
+  - first:
+      213: 5192543695823439474
+    second: Projectiles_particles_7
+  - first:
+      213: -1842101550376735701
+    second: Projectiles_particles_8
+  - first:
+      213: -24538060966187778
+    second: Projectiles_particles_9
+  - first:
+      213: -7512048228462403489
+    second: Projectiles_particles_10
+  - first:
+      213: 3098276518376361650
+    second: Projectiles_particles_11
+  - first:
+      213: -3901294897899264948
+    second: Projectiles_particles_12
+  - first:
+      213: 839192432127640904
+    second: Projectiles_particles_13
+  - first:
+      213: -9031525703607804124
+    second: Projectiles_particles_14
+  - first:
+      213: -7932611371734931260
+    second: Projectiles_particles_15
+  - first:
+      213: -3823280580572305349
+    second: Projectiles_particles_16
+  - first:
+      213: 7194373767597639913
+    second: Projectiles_particles_17
+  - first:
+      213: 1260481451451265843
+    second: Projectiles_particles_18
+  - first:
+      213: -2954946875795763466
+    second: Projectiles_particles_19
+  - first:
+      213: 3749155957307288460
+    second: Projectiles_particles_20
+  - first:
+      213: -8774476159059178054
+    second: Projectiles_particles_21
+  - first:
+      213: -525866917467499499
+    second: Projectiles_particles_22
+  - first:
+      213: 3554225750705178808
+    second: Projectiles_particles_23
+  - first:
+      213: 8337278224487187703
+    second: Projectiles_particles_24
+  - first:
+      213: -4707556077447641724
+    second: Projectiles_particles_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Projectiles_particles_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 369
+        width: 148
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e533fdcca4130a0800000000000000
+      internalID: -6903654510003790317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_particles_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 372
+        width: 141
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dba205da711f2390800000000000000
+      internalID: -7841029206971339817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_particles_4
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 366
+        width: 140
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2a7be1275407240800000000000000
+      internalID: 4787402760338776826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_particles_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 191
+        width: 161
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44aba6d5f0dbd9c0800000000000000
+      internalID: -3901294897899264948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_particles_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 193
+        width: 150
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8450a2f121965ab00800000000000000
+      internalID: 839192432127640904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_particles_17
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 200
+        width: 143
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8cb0ff2dc87d360800000000000000
+      internalID: 7194373767597639913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_particles_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 171
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdc4292c6cca3680800000000000000
+      internalID: -8774476159059178054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_particles_24
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 21
+        width: 160
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f488245f56f3b370800000000000000
+      internalID: 8337278224487187703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles_particles_25
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 6
+        width: 163
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485808370b66baeb0800000000000000
+      internalID: -4707556077447641724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6b3818b53d307a94e876c0f605d1d1fa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Projectiles_particles_0: -6903654510003790317
+      Projectiles_particles_1: 939165153046530115
+      Projectiles_particles_10: -7512048228462403489
+      Projectiles_particles_11: 3098276518376361650
+      Projectiles_particles_12: -3901294897899264948
+      Projectiles_particles_13: 839192432127640904
+      Projectiles_particles_14: -9031525703607804124
+      Projectiles_particles_15: -7932611371734931260
+      Projectiles_particles_16: -3823280580572305349
+      Projectiles_particles_17: 7194373767597639913
+      Projectiles_particles_18: 1260481451451265843
+      Projectiles_particles_19: -2954946875795763466
+      Projectiles_particles_2: -6752661309900554072
+      Projectiles_particles_20: 3749155957307288460
+      Projectiles_particles_21: -8774476159059178054
+      Projectiles_particles_22: -525866917467499499
+      Projectiles_particles_23: 3554225750705178808
+      Projectiles_particles_24: 8337278224487187703
+      Projectiles_particles_25: -4707556077447641724
+      Projectiles_particles_3: -7841029206971339817
+      Projectiles_particles_4: 4787402760338776826
+      Projectiles_particles_5: -2703877945805414262
+      Projectiles_particles_6: -8244855059363037458
+      Projectiles_particles_7: 5192543695823439474
+      Projectiles_particles_8: -1842101550376735701
+      Projectiles_particles_9: -24538060966187778
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
