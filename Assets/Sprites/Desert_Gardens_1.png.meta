@@ -1,49 +1,40 @@
 fileFormatVersion: 2
-guid: 8960d792ea55dc14eb91fa93ff17a0c3
+guid: 44e6ecaf4284a4644b90f1ea9ba16a50
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5066117081764309750
-    second: Gardens_0
+      213: -4995931992303766853
+    second: Desert_Gardens_1_0
   - first:
-      213: 8900468870951077248
-    second: Gardens_1
+      213: -4878707438640287308
+    second: Desert_Gardens_1_1
   - first:
-      213: -9115906011803876910
-    second: Gardens_2
+      213: 6855571385834820106
+    second: Desert_Gardens_1_2
   - first:
-      213: -2170653277202948152
-    second: Gardens_3
+      213: -147458946738128177
+    second: Desert_Gardens_1_3
   - first:
-      213: 59891789598002187
-    second: Gardens_4
+      213: -5296009037199810119
+    second: Desert_Gardens_1_4
   - first:
-      213: -892920426766711932
-    second: Gardens_5
+      213: -7755403935867949121
+    second: Desert_Gardens_1_5
   - first:
-      213: 2253589006472953157
-    second: Gardens_6
+      213: -5641182572105436002
+    second: Desert_Gardens_1_6
   - first:
-      213: 3755132606643456497
-    second: Gardens_7
+      213: 2624813140685032866
+    second: Desert_Gardens_1_7
   - first:
-      213: -6434963538080190444
-    second: Gardens_8
+      213: 917635644420287159
+    second: Desert_Gardens_1_8
   - first:
-      213: 4027649745267017052
-    second: Gardens_9
+      213: 3864723661209553140
+    second: Desert_Gardens_1_9
   - first:
-      213: -6096713381946555336
-    second: Gardens_10
-  - first:
-      213: -3243341219850860100
-    second: Gardens_11
-  - first:
-      213: -5388478790701654365
-    second: Gardens_12
-  - first:
-      213: -1896757774807870382
-    second: Gardens_13
+      213: -5534723088444526179
+    second: Desert_Gardens_1_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -152,265 +143,243 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gardens_0
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 735
-        width: 93
-        height: 258
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0556e60b5981b9b0800000000000000
-      internalID: -5066117081764309750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gardens_1
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 735
-        width: 231
-        height: 258
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 085067b0841d48b70800000000000000
-      internalID: 8900468870951077248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gardens_2
-      rect:
-        serializedVersion: 2
-        x: 556
-        y: 716
-        width: 204
-        height: 257
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d10598c7cbcd7180800000000000000
-      internalID: -9115906011803876910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gardens_3
-      rect:
-        serializedVersion: 2
-        x: 818
-        y: 716
-        width: 146
-        height: 258
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8cfd7c1585a40e1e0800000000000000
-      internalID: -2170653277202948152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gardens_6
+      name: Desert_Gardens_1_0
       rect:
         serializedVersion: 2
         x: 18
-        y: 383
-        width: 171
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54dbb88e24b564f10800000000000000
-      internalID: 2253589006472953157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gardens_7
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 383
-        width: 212
+        y: 743
+        width: 192
         height: 258
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f9487fc539ec1430800000000000000
-      internalID: 3755132606643456497
+      spriteID: bb279b49252eaaab0800000000000000
+      internalID: -4995931992303766853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gardens_8
+      name: Desert_Gardens_1_1
       rect:
         serializedVersion: 2
-        x: 494
-        y: 383
-        width: 226
+        x: 250
+        y: 743
+        width: 258
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b13accde695b4cb0800000000000000
+      internalID: -4878707438640287308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_Gardens_1_2
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 729
+        width: 180
         height: 258
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 410b32a81ca62b6a0800000000000000
-      internalID: -6434963538080190444
+      spriteID: a0254016ad1e32f50800000000000000
+      internalID: 6855571385834820106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gardens_9
+      name: Desert_Gardens_1_3
       rect:
         serializedVersion: 2
-        x: 782
-        y: 404
-        width: 161
-        height: 259
+        x: 734
+        y: 716
+        width: 240
+        height: 258
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c55455a9a1615e730800000000000000
-      internalID: 4027649745267017052
+      spriteID: fca78b48ede14fdf0800000000000000
+      internalID: -147458946738128177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gardens_10
+      name: Desert_Gardens_1_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 460
+        width: 234
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1627217dbc086b0800000000000000
+      internalID: -5296009037199810119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_Gardens_1_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 444
+        width: 258
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbface0d5354f5490800000000000000
+      internalID: -7755403935867949121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_Gardens_1_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 460
+        width: 258
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94f784c65e76b1b0800000000000000
+      internalID: -5641182572105436002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_Gardens_1_7
       rect:
         serializedVersion: 2
         x: 50
-        y: 63
-        width: 161
-        height: 258
+        y: 260
+        width: 258
+        height: 186
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83484bb1b7f146ba0800000000000000
-      internalID: -6096713381946555336
+      spriteID: 2ad0f4405a53d6420800000000000000
+      internalID: 2624813140685032866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gardens_11
+      name: Desert_Gardens_1_8
       rect:
         serializedVersion: 2
-        x: 279
-        y: 50
-        width: 204
-        height: 246
+        x: 383
+        y: 214
+        width: 258
+        height: 211
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb9486138565df2d0800000000000000
-      internalID: -3243341219850860100
+      spriteID: 7ba68eab1c81cbc00800000000000000
+      internalID: 917635644420287159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gardens_12
+      name: Desert_Gardens_1_9
       rect:
         serializedVersion: 2
-        x: 524
-        y: 63
-        width: 165
-        height: 258
+        x: 716
+        y: 215
+        width: 258
+        height: 210
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ae5088d6174835b0800000000000000
-      internalID: -5388478790701654365
+      spriteID: 4f8417591b142a530800000000000000
+      internalID: 3864723661209553140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gardens_13
+      name: Desert_Gardens_1_10
       rect:
         serializedVersion: 2
-        x: 752
-        y: 78
-        width: 222
-        height: 256
+        x: 50
+        y: 7
+        width: 258
+        height: 234
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 254dd9f6adc5da5e0800000000000000
-      internalID: -1896757774807870382
+      spriteID: d917c1fdca6b033b0800000000000000
+      internalID: -5534723088444526179
       vertices: []
       indices: 
       edges: []
@@ -419,7 +388,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8c61cbdafa305ea4d95d2506350a12f3
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -429,20 +398,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gardens_0: -5066117081764309750
-      Gardens_1: 8900468870951077248
-      Gardens_10: -6096713381946555336
-      Gardens_11: -3243341219850860100
-      Gardens_12: -5388478790701654365
-      Gardens_13: -1896757774807870382
-      Gardens_2: -9115906011803876910
-      Gardens_3: -2170653277202948152
-      Gardens_4: 59891789598002187
-      Gardens_5: -892920426766711932
-      Gardens_6: 2253589006472953157
-      Gardens_7: 3755132606643456497
-      Gardens_8: -6434963538080190444
-      Gardens_9: 4027649745267017052
+      Desert_Gardens_1_0: -4995931992303766853
+      Desert_Gardens_1_1: -4878707438640287308
+      Desert_Gardens_1_10: -5534723088444526179
+      Desert_Gardens_1_2: 6855571385834820106
+      Desert_Gardens_1_3: -147458946738128177
+      Desert_Gardens_1_4: -5296009037199810119
+      Desert_Gardens_1_5: -7755403935867949121
+      Desert_Gardens_1_6: -5641182572105436002
+      Desert_Gardens_1_7: 2624813140685032866
+      Desert_Gardens_1_8: 917635644420287159
+      Desert_Gardens_1_9: 3864723661209553140
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
