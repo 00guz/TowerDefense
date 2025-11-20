@@ -1,0 +1,626 @@
+fileFormatVersion: 2
+guid: 7691f2fee23e0834a90df8da65b75754
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3861507773249808751
+    second: Nether_Gardens_0
+  - first:
+      213: -5184045524911462772
+    second: Nether_Gardens_1
+  - first:
+      213: -4748787514865822329
+    second: Nether_Gardens_2
+  - first:
+      213: -4862966049209004795
+    second: Nether_Gardens_3
+  - first:
+      213: 8284529834433795900
+    second: Nether_Gardens_4
+  - first:
+      213: 5202508247097617780
+    second: Nether_Gardens_5
+  - first:
+      213: 7480648709520531569
+    second: Nether_Gardens_6
+  - first:
+      213: -7454948567478610879
+    second: Nether_Gardens_7
+  - first:
+      213: 8336777753858318338
+    second: Nether_Gardens_8
+  - first:
+      213: -9021435171232751455
+    second: Nether_Gardens_9
+  - first:
+      213: 722049569523356397
+    second: Nether_Gardens_10
+  - first:
+      213: -4141447266350453208
+    second: Nether_Gardens_11
+  - first:
+      213: 5411613096243633547
+    second: Nether_Gardens_12
+  - first:
+      213: -4181543167952997351
+    second: Nether_Gardens_13
+  - first:
+      213: -4013804665791912730
+    second: Nether_Gardens_14
+  - first:
+      213: -9161455913771889054
+    second: Nether_Gardens_15
+  - first:
+      213: 661105773431738342
+    second: Nether_Gardens_16
+  - first:
+      213: 6182714762743577024
+    second: Nether_Gardens_17
+  - first:
+      213: -3125447716432356058
+    second: Nether_Gardens_18
+  - first:
+      213: -5579899281096599216
+    second: Nether_Gardens_19
+  - first:
+      213: -6714184831619247686
+    second: Nether_Gardens_20
+  - first:
+      213: 4627136185631340712
+    second: Nether_Gardens_21
+  - first:
+      213: -965899653198051515
+    second: Nether_Gardens_22
+  - first:
+      213: 1264249000002880215
+    second: Nether_Gardens_23
+  - first:
+      213: 4015905763906226334
+    second: Nether_Gardens_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nether_Gardens_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 760
+        width: 240
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196190ea32b296ac0800000000000000
+      internalID: -3861507773249808751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 774
+        width: 258
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86e234bf029e08b0800000000000000
+      internalID: -5184045524911462772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 760
+        width: 194
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785dc965aeae81eb0800000000000000
+      internalID: -4748787514865822329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_3
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 772
+        width: 258
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dcc12b426438cb0800000000000000
+      internalID: -4862966049209004795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 475
+        width: 110
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c375d88bdff88f270800000000000000
+      internalID: 8284529834433795900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_5
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 475
+        width: 135
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d2b49cfa5033840800000000000000
+      internalID: 5202508247097617780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 475
+        width: 199
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170a47cfd5a90d760800000000000000
+      internalID: 7480648709520531569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_7
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 475
+        width: 203
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14451a0a6c3ba8890800000000000000
+      internalID: -7454948567478610879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_8
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 475
+        width: 198
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200aa1e623f22b370800000000000000
+      internalID: 8336777753858318338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_9
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 624
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0e476628c6dc280800000000000000
+      internalID: -9021435171232751455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 191
+        width: 160
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2d9a5024c350a00800000000000000
+      internalID: 722049569523356397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 194
+        width: 125
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e2b2157af9686c0800000000000000
+      internalID: -4141447266350453208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_12
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 191
+        width: 169
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d14776079e91b40800000000000000
+      internalID: 5411613096243633547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_14
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 225
+        width: 166
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4eaa92ce91c48c0800000000000000
+      internalID: -4013804665791912730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_17
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 131
+        width: 134
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9f4ecb15a6dc550800000000000000
+      internalID: 6182714762743577024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 11
+        width: 171
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547057a026f6892f0800000000000000
+      internalID: -965899653198051515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_23
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d280d864c38b8110800000000000000
+      internalID: 1264249000002880215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nether_Gardens_24
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 63
+        width: 216
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98031dd30d5bb730800000000000000
+      internalID: 4015905763906226334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8021c0fd755ff8a40a8dd52b3bfa5a27
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Nether_Gardens_0: -3861507773249808751
+      Nether_Gardens_1: -5184045524911462772
+      Nether_Gardens_10: 722049569523356397
+      Nether_Gardens_11: -4141447266350453208
+      Nether_Gardens_12: 5411613096243633547
+      Nether_Gardens_13: -4181543167952997351
+      Nether_Gardens_14: -4013804665791912730
+      Nether_Gardens_15: -9161455913771889054
+      Nether_Gardens_16: 661105773431738342
+      Nether_Gardens_17: 6182714762743577024
+      Nether_Gardens_18: -3125447716432356058
+      Nether_Gardens_19: -5579899281096599216
+      Nether_Gardens_2: -4748787514865822329
+      Nether_Gardens_20: -6714184831619247686
+      Nether_Gardens_21: 4627136185631340712
+      Nether_Gardens_22: -965899653198051515
+      Nether_Gardens_23: 1264249000002880215
+      Nether_Gardens_24: 4015905763906226334
+      Nether_Gardens_3: -4862966049209004795
+      Nether_Gardens_4: 8284529834433795900
+      Nether_Gardens_5: 5202508247097617780
+      Nether_Gardens_6: 7480648709520531569
+      Nether_Gardens_7: -7454948567478610879
+      Nether_Gardens_8: 8336777753858318338
+      Nether_Gardens_9: -9021435171232751455
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
