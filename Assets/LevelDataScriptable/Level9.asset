@@ -16,20 +16,24 @@ MonoBehaviour:
   startingGold: 150
   waves:
   - enemyTypes:
-    - {fileID: 11400000, guid: a0037857631b8b54daa6baab7bf09825, type: 2}
-    - {fileID: 11400000, guid: 8d5b295032ee2bd40a9e3ae18986a02a, type: 2}
-    - {fileID: 11400000, guid: ccb49f0af87418d49901d283e66dff68, type: 2}
-    - {fileID: 11400000, guid: 7d1576606a4148e4aa71e17b532c31c5, type: 2}
-    dusmanSayisi: 15
-    dusmanSpawnSuresi: 1
+    - {fileID: 11400000, guid: 7965eb2aa07b18a47b7577eab20f76fb, type: 2}
+    dusmanSayisi: 5
+    dusmanSpawnSuresi: 3
     dalgaArasiBeklemeSuresi: 15
   - enemyTypes:
-    - {fileID: 11400000, guid: a0037857631b8b54daa6baab7bf09825, type: 2}
-    - {fileID: 11400000, guid: 8d5b295032ee2bd40a9e3ae18986a02a, type: 2}
-    - {fileID: 11400000, guid: ccb49f0af87418d49901d283e66dff68, type: 2}
-    - {fileID: 11400000, guid: 7d1576606a4148e4aa71e17b532c31c5, type: 2}
-    dusmanSayisi: 15
-    dusmanSpawnSuresi: 1
+    - {fileID: 11400000, guid: 5e659369f457f1146ac6b4c0be38c80c, type: 2}
+    dusmanSayisi: 5
+    dusmanSpawnSuresi: 2
+    dalgaArasiBeklemeSuresi: 15
+  - enemyTypes:
+    - {fileID: 11400000, guid: 88ce6951e9347ba4c9ddd9fceda3938b, type: 2}
+    dusmanSayisi: 5
+    dusmanSpawnSuresi: 2
+    dalgaArasiBeklemeSuresi: 15
+  - enemyTypes:
+    - {fileID: 11400000, guid: 885ca848564acf8488dfc4cc5250cbd9, type: 2}
+    dusmanSayisi: 5
+    dusmanSpawnSuresi: 2
     dalgaArasiBeklemeSuresi: 0
   allowedTowers:
   - {fileID: 11400000, guid: a3c12a3ca6380ca47b1f14041ee4213a, type: 2}
