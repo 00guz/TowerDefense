@@ -134,10 +134,14 @@ public class TowerMenu : MonoBehaviour
             if (infoButton != null && ThemeManager.Instance != null)
             {
                 Image infoButtonImage = infoButton.GetComponent<Image>();
+                TextMeshProUGUI infoButtonText = infoButton.GetComponentInChildren<TextMeshProUGUI>();
                 if (infoButtonImage != null)
                 {
                     // ThemeManager'dan o anki doğru sprite'ı iste
                     infoButtonImage.sprite = ThemeManager.Instance.GetCurrentInfoButtonSprite();
+                    infoButtonText.color = ThemeManager.Instance.GetCurrentThemeTextColor();
+                    
+
                 }
             }
 

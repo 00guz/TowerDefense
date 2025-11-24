@@ -14,7 +14,7 @@ public class LevelSelectMenu : MonoBehaviour
 
     // -------------------------------------------------------------------
     // 🔹 YENİ EKLENEN DEĞİŞKENLER 🔹
-    [Header("Level Buton GÃ¶rselleri")]
+    [Header("Level Buton Görselleri")]
     [Tooltip("Her 8 levelde bir deÄŸiÅŸecek olan buton sprite'larÄ±. (SÄ±rayla 4 adet atayÄ±n)")]
     public Sprite[] levelButtonSprites;
     // -------------------------------------------------------------------
@@ -30,6 +30,9 @@ public class LevelSelectMenu : MonoBehaviour
 
     private int currentPage = 0;
     private int totalPages = 0;
+    [Header("Geliştirici Ayarları")]
+    [Tooltip("İşaretlenirse menüdeki tüm leveller açık görünür.")]
+    public bool debugUnlockAllLevels = false;
 
     void Start()
     {
@@ -78,6 +81,12 @@ public class LevelSelectMenu : MonoBehaviour
         // 2. Kayıtlı en yüksek level'ı PlayerPrefs'ten al
         int highestLevelUnlocked = PlayerPrefs.GetInt("SavedLevelIndex", 0);
 
+        // Eğer bu script üzerindeki kutucuk işaretliyse, hepsini aç
+        if (debugUnlockAllLevels)
+        {
+            highestLevelUnlocked = 99999; 
+        }
+
         // 3. Bu sayfada gösterilecek levelların başlangıç ve bitiş index'ini hesapla
         int startIndex = currentPage * itemsPerPage;
         int endIndex = Mathf.Min(startIndex + itemsPerPage, levelDatabase.allLevels.Length);
@@ -91,39 +100,46 @@ public class LevelSelectMenu : MonoBehaviour
             Transform lockIcon = buttonObj.transform.Find("LockIcon"); 
 
             // -------------------------------------------------------------------
-            // 🔹 YENİ SPRITE ATAMA KODU 🔹
-            Image buttonImage = buttonObj.GetComponent<Image>(); // Butonun ana Image bileÅŸenini al
-
+            // 🔹 YENİ: BUTON SPRITE'INI AYARLA (Önceki kodunuz)
+            Image buttonImage = buttonObj.GetComponent<Image>();
             if (buttonImage != null && levelButtonSprites != null && levelButtonSprites.Length > 0)
             {
-                // Hangi sprite'Ä± kullanacaÄŸÄ±mÄ±zÄ± hesapla
-                // (i = 0-7 ise 0 / 8 = 0) -> spriteIndex = 0
-                // (i = 8-15 ise 8 / 8 = 1) -> spriteIndex = 1
-                // (i = 16-23 ise 16 / 8 = 2) -> spriteIndex = 2
-                int spriteIndex = i / itemsPerPage;
-
-                // EÄŸer hesaplanan index, sprite dizimizin sÄ±nÄ±rlarÄ± iÃ§indeyse
+                int spriteIndex = i / 8;
                 if (spriteIndex < levelButtonSprites.Length)
-                {
                     buttonImage.sprite = levelButtonSprites[spriteIndex];
-                }
                 else
-                {
-                    // EÄŸer sÄ±nÄ±rÄ± aÅŸÄ±yorsak (Ã¶rn. Level 33+), gÃ¼venli olmasÄ± iÃ§in son sprite'Ä± kullan
                     buttonImage.sprite = levelButtonSprites[levelButtonSprites.Length - 1];
-                }
             }
             // -------------------------------------------------------------------
 
-            // Level numarasını yaz (index 0 = Level 1)
+            // Level numarasını yaz
             levelText.text = (i + 1).ToString();
+
+            // -------------------------------------------------------------------
+            // 🔹 YENİ: TEXT RENGİNİ TEMAYA GÖRE AYARLA 🔹
+            if (ThemeManager.Instance != null && ThemeManager.Instance.themeTextColors != null)
+            {
+                // Bu levelin hangi temaya (0, 1, 2, 3) ait olduğunu hesapla
+                int themeIndexForThisLevel = i / 8;
+
+                // Eğer renk dizisinde bu index varsa rengi ata
+                if (themeIndexForThisLevel < ThemeManager.Instance.themeTextColors.Length)
+                {
+                    levelText.color = ThemeManager.Instance.themeTextColors[themeIndexForThisLevel];
+                }
+                else
+                {
+                    // Eğer level sayısı tema sayısından fazlaysa son rengi kullan
+                    levelText.color = ThemeManager.Instance.themeTextColors[ThemeManager.Instance.themeTextColors.Length - 1];
+                }
+            }
+            // -------------------------------------------------------------------
 
             bool isUnlocked = (i <= highestLevelUnlocked);
 
             if (isUnlocked)
             {
                 if (lockIcon != null) lockIcon.gameObject.SetActive(false);
-                
                 button.interactable = true;
                 int levelIndexToLoad = i; 
                 button.onClick.AddListener(() => StartLevel(levelIndexToLoad));

@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI; // 🔹 UI (Image) bileşenlerini kullanabilmek için bu satır gerekli
 
@@ -47,6 +48,15 @@ public class ThemeManager : MonoBehaviour
     public Sprite[] panel_24_ThemeSprites;
     public Sprite[] panel_25_ThemeSprites;
     public Sprite[] infoButtonThemeSprites; // 🔹 Info butonu için temalı sprite'lar
+    [Header("Text Rengi Ayarları")]
+    [Tooltip("Rengi değişecek olan TÜM Text objelerini buraya sürükleyin")]
+    public TextMeshProUGUI[] textsToTheme;
+
+    // İstediğin özel renk: 244, 181, 63
+    private Color32 lavaThemeColor = new Color32(244, 181, 63, 255);
+    private Color32 defaultTextColor = Color.white; // Diğer leveller için (Beyaz)
+
+    public Color[] themeTextColors;
 
 
 
@@ -136,6 +146,34 @@ public class ThemeManager : MonoBehaviour
                 }
             }
         }
+        ApplyThemeToTexts();
+    }
+    private void ApplyThemeToTexts()
+    {
+        if (textsToTheme == null) return;
+
+        // Şu anki temanın rengini al
+        Color targetColor = GetCurrentThemeTextColor();
+
+        foreach (var textObj in textsToTheme)
+        {
+            if (textObj != null)
+            {
+                textObj.color = targetColor;
+            }
+        }
+    }
+
+    public Color32 GetCurrentThemeTextColor()
+    {
+        // Dizi tanımlıysa ve içinde yeterli eleman varsa
+        if (themeTextColors != null && themeTextColors.Length > CurrentThemeIndex)
+        {
+            return themeTextColors[CurrentThemeIndex];
+        }
+        
+        // Hata durumunda varsayılan beyaz döndür
+        return Color.white;
     }
     public Sprite GetCurrentInfoButtonSprite()
     {

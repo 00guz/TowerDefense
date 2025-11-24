@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a17f0c4794c7e3409271496ecc49579, type: 3}
+  m_Name: SnowWoodTower
+  m_EditorClassIdentifier: 
+  towerName: Kar Tahta Kule
+  prefab: {fileID: 6684747748350755350, guid: c5ad285c57c101a4c91562c3ac5e5562, type: 3}
+  icon: {fileID: -7452073340770981584, guid: 4312cd28ed5515e46961b5c9e37f9edd, type: 3}
+  cost: 50
+  range: 5
+  fireRate: 2
+  damage: 8
+  soruSayisi: 1
