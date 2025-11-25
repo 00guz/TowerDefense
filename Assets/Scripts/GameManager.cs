@@ -26,6 +26,8 @@ public class GameManager : MonoBehaviour
     public GameObject CongratsPanel;     // 🔹 Level tamamlandığında gösterilecek panel
 
     public GameObject AllLevelCompletedPanel; // Tüm level'lar tamamlandığında gösterilecek panel
+    public GameObject pauseMenuPanel; // 🔹 Pause menüsü panel
+    public GameObject settingsPanel; // 🔹 Settings menüsü panel
 
     private void Awake()
     {
@@ -249,6 +251,8 @@ public class GameManager : MonoBehaviour
     {
         gameOverPanel.SetActive(false);
         AllLevelCompletedPanel.SetActive(false);
+        pauseMenuPanel.SetActive(false);
+        CongratsPanel.SetActive(false);
         
         // 1. Önce Kuleleri ve Canı sıfırla
         LevelResetter.Instance.ResetLevel();
@@ -264,6 +268,26 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
+    }
+    public void settingsOpen()
+    {
+        settingsPanel.SetActive(true);
+        pauseMenuPanel.SetActive(false);
+    }
+    public void settingsClose()
+    {
+        settingsPanel.SetActive(false);
+        pauseMenuPanel.SetActive(true);
+    }
+    public void PauseGame()
+    {
+        Time.timeScale = 0f;
+        pauseMenuPanel.SetActive(true);
+    }
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f;
+        pauseMenuPanel.SetActive(false);
     }
 
 }

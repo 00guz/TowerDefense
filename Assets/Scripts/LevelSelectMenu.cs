@@ -44,6 +44,7 @@ public class LevelSelectMenu : MonoBehaviour
         // 2. Ok butonlarına dinleyicileri (listener) ekle
         nextPageButton.onClick.AddListener(NextPage);
         prevPageButton.onClick.AddListener(PreviousPage);
+        AudioManager.Instance.PlayMusic(AudioManager.Instance.musicClip[0]);
 
         // 3. İlk sayfayı (sayfa 0) göster
         ShowPage(0);

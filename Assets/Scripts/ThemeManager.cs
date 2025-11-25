@@ -47,6 +47,23 @@ public class ThemeManager : MonoBehaviour
     public Sprite[] panel_23_ThemeSprites;
     public Sprite[] panel_24_ThemeSprites;
     public Sprite[] panel_25_ThemeSprites;
+    public Sprite[] panel_26_ThemeSprites;
+    public Sprite[] panel_27_ThemeSprites;
+    public Sprite[] panel_28_ThemeSprites;
+    public Sprite[] panel_29_ThemeSprites;
+    public Sprite[] panel_30_ThemeSprites;
+    public Sprite[] panel_31_ThemeSprites;
+    public Sprite[] panel_32_ThemeSprites;
+    public Sprite[] panel_33_ThemeSprites;
+    public Sprite[] panel_34_ThemeSprites;
+    public Sprite[] panel_35_ThemeSprites;
+    public Sprite[] panel_36_ThemeSprites;
+    public Sprite[] panel_37_ThemeSprites;
+    public Sprite[] panel_38_ThemeSprites;
+    public Sprite[] panel_39_ThemeSprites;
+    public Sprite[] panel_40_ThemeSprites;
+    public Sprite[] panel_41_ThemeSprites;
+    
     public Sprite[] infoButtonThemeSprites; // 🔹 Info butonu için temalı sprite'lar
     [Header("Text Rengi Ayarları")]
     [Tooltip("Rengi değişecek olan TÜM Text objelerini buraya sürükleyin")]
@@ -103,7 +120,23 @@ public class ThemeManager : MonoBehaviour
             panel_22_ThemeSprites,
             panel_23_ThemeSprites,
             panel_24_ThemeSprites,
-            panel_25_ThemeSprites
+            panel_25_ThemeSprites,
+            panel_26_ThemeSprites,
+            panel_27_ThemeSprites,
+            panel_28_ThemeSprites,
+            panel_29_ThemeSprites,
+            panel_30_ThemeSprites,
+            panel_31_ThemeSprites,
+            panel_32_ThemeSprites,
+            panel_33_ThemeSprites,
+            panel_34_ThemeSprites,
+            panel_35_ThemeSprites,
+            panel_36_ThemeSprites,
+            panel_37_ThemeSprites,
+            panel_38_ThemeSprites,
+            panel_39_ThemeSprites,
+            panel_40_ThemeSprites,
+            panel_41_ThemeSprites
         };
     }
 
@@ -139,6 +172,7 @@ public class ThemeManager : MonoBehaviour
                 {
                     // 🔹 İŞTE BURASI: Panelin sprite'ını o anki temaya göre ayarla!
                     panelsToTheme[i].sprite = currentSpriteGroup[CurrentThemeIndex];
+                    AudioManager.Instance.PlayMusic(AudioManager.Instance.musicClip[CurrentThemeIndex+1]);
                 }
                 else
                 {

@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 7c90273fdec6e3e44ab72b37ca3c86dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6840311497377543664
+    second: Handle_Musics_0
+  - first:
+      213: -8236780360188728947
+    second: Handle_Musics_1
+  - first:
+      213: -7165603532134842540
+    second: Handle_Musics_2
+  - first:
+      213: -1869101061414062069
+    second: Handle_Musics_3
+  - first:
+      213: 7860336691378242586
+    second: Handle_Musics_4
+  - first:
+      213: -6204535277771352820
+    second: Handle_Musics_5
+  - first:
+      213: 2228301383059454904
+    second: Handle_Musics_6
+  - first:
+      213: 9048678693900848004
+    second: Handle_Musics_7
+  - first:
+      213: 3921713124421874844
+    second: Handle_Musics_8
+  - first:
+      213: 5375266561462852663
+    second: Handle_Musics_9
+  - first:
+      213: 8719199230513338979
+    second: Handle_Musics_10
+  - first:
+      213: -2600985920878354199
+    second: Handle_Musics_11
+  - first:
+      213: -3058680711478769658
+    second: Handle_Musics_12
+  - first:
+      213: 4619865896177209674
+    second: Handle_Musics_13
+  - first:
+      213: -3658417571542055365
+    second: Handle_Musics_14
+  - first:
+      213: 6604321534272103249
+    second: Handle_Musics_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Handle_Musics_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5753ab01badee50800000000000000
+      internalID: 6840311497377543664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 266
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89690a17e311bd80800000000000000
+      internalID: -8236780360188728947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 266
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f71d17d89ae8c90800000000000000
+      internalID: -7165603532134842540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_3
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 266
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08fb11dc7e9f06e0800000000000000
+      internalID: -1869101061414062069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_4
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 266
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14c1903396851d60800000000000000
+      internalID: 7860336691378242586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 266
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c051f04b90015e9a0800000000000000
+      internalID: -6204535277771352820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_6
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 266
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb35c54d448cee10800000000000000
+      internalID: 2228301383059454904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_7
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 266
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b0b94845d539d70800000000000000
+      internalID: 9048678693900848004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 163
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94372cfe49bc6630800000000000000
+      internalID: 3921713124421874844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 163
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c57015578c89a40800000000000000
+      internalID: 5375266561462852663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_10
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 163
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a5b9cf081d00970800000000000000
+      internalID: 8719199230513338979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_11
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 163
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0e048e51177ebd0800000000000000
+      internalID: -2600985920878354199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_12
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 163
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60808f639126d85d0800000000000000
+      internalID: -3058680711478769658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_13
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 163
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4195933e8f0d1040800000000000000
+      internalID: 4619865896177209674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_14
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 163
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3640301a90ba3dc0800000000000000
+      internalID: -3658417571542055365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handle_Musics_15
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 163
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15360c8b17347ab50800000000000000
+      internalID: 6604321534272103249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Handle_Musics_0: 6840311497377543664
+      Handle_Musics_1: -8236780360188728947
+      Handle_Musics_10: 8719199230513338979
+      Handle_Musics_11: -2600985920878354199
+      Handle_Musics_12: -3058680711478769658
+      Handle_Musics_13: 4619865896177209674
+      Handle_Musics_14: -3658417571542055365
+      Handle_Musics_15: 6604321534272103249
+      Handle_Musics_2: -7165603532134842540
+      Handle_Musics_3: -1869101061414062069
+      Handle_Musics_4: 7860336691378242586
+      Handle_Musics_5: -6204535277771352820
+      Handle_Musics_6: 2228301383059454904
+      Handle_Musics_7: 9048678693900848004
+      Handle_Musics_8: 3921713124421874844
+      Handle_Musics_9: 5375266561462852663
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

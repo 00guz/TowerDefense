@@ -5,6 +5,7 @@ public class MainMenuManager : MonoBehaviour
 {
 
     public GameObject levels;
+    public GameObject settings;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,5 +21,15 @@ public class MainMenuManager : MonoBehaviour
     public void LevelsOpen()
     {
         levels.SetActive(true);
+    }
+
+    public void settingsOpen()
+    {
+        settings.SetActive(true);
+    }
+
+    public void settingsClose()
+    {
+        settings.SetActive(false);
     }
 }
