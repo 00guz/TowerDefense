@@ -63,6 +63,8 @@ public class ThemeManager : MonoBehaviour
     public Sprite[] panel_39_ThemeSprites;
     public Sprite[] panel_40_ThemeSprites;
     public Sprite[] panel_41_ThemeSprites;
+    public Sprite[] panel_42_ThemeSprites;
+    public Sprite[] panel_43_ThemeSprites;
     
     public Sprite[] infoButtonThemeSprites; // 🔹 Info butonu için temalı sprite'lar
     [Header("Text Rengi Ayarları")]
@@ -136,7 +138,10 @@ public class ThemeManager : MonoBehaviour
             panel_38_ThemeSprites,
             panel_39_ThemeSprites,
             panel_40_ThemeSprites,
-            panel_41_ThemeSprites
+            panel_41_ThemeSprites,
+            panel_42_ThemeSprites,
+            panel_43_ThemeSprites
+
         };
     }
 

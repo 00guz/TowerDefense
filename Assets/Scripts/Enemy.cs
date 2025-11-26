@@ -112,9 +112,11 @@ public class Enemy : MonoBehaviour
     {
         if (isDead) return; 
         isDead = true;
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.sfxClip[9]);
 
         GameManager.Instance.TakeDamageBase(data.damageToBase);
         OnEnemyDied?.Invoke(this);
+
 
         // 🔹 YENİ: Ölünce sağlık barını da gizle/yok et
         if (healthBarCanvasObject != null)
@@ -128,6 +130,7 @@ public class Enemy : MonoBehaviour
         if (isDead) return; 
 
         currentHealth -= damage;
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.sfxClip[14]);
         
         // 🔹 YENİ: Sağlık barını güncelle
         if (healthBarCanvasObject != null && healthBarSlider != null)
@@ -145,6 +148,11 @@ public class Enemy : MonoBehaviour
 
         if (currentHealth <= 0)
             Die(true);
+    }
+
+    public float GetCurrentHealth()
+    {
+        return currentHealth;
     }
 
     private void Die(bool killedByPlayer)

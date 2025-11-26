@@ -13,19 +13,18 @@ MonoBehaviour:
   m_Name: Level2
   m_EditorClassIdentifier: 
   levelName: Level 2
-  startingGold: 150
+  startingGold: 75
   waves:
   - enemyTypes:
     - {fileID: 11400000, guid: a0037857631b8b54daa6baab7bf09825, type: 2}
-    dusmanSayisi: 10
+    dusmanSayisi: 6
     dusmanSpawnSuresi: 1.5
     dalgaArasiBeklemeSuresi: 10
   - enemyTypes:
     - {fileID: 11400000, guid: a0037857631b8b54daa6baab7bf09825, type: 2}
-    dusmanSayisi: 10
+    dusmanSayisi: 8
     dusmanSpawnSuresi: 1.5
     dalgaArasiBeklemeSuresi: 0
   allowedTowers:
   - {fileID: 11400000, guid: a3c12a3ca6380ca47b1f14041ee4213a, type: 2}
-  - {fileID: 11400000, guid: a40025fa93148e34985e772851541c52, type: 2}
   tileMapData: {fileID: 11400000, guid: 1d747166e32647746a8a393dd0657868, type: 2}

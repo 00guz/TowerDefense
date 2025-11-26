@@ -15,6 +15,11 @@ public class AudioManager : MonoBehaviour
     public float defaultMusicVolume = 0.5f;
     public float defaultSFXVolume = 0.5f;
 
+    [Header("Ses Çeşitleme Ayarları")]
+    [Tooltip("Sesin tonu ne kadar değişsin? (0.1 = %10 değişim)")]
+    [Range(0f, 0.5f)]
+    public float pitchRandomness = 0.1f;
+
     private void Awake()
     {
         // Singleton Yapısı (Sahne geçişlerinde yok olmasın)
@@ -79,6 +84,9 @@ public class AudioManager : MonoBehaviour
     {
         if (clip == null) return;
         // PlayOneShot, aynı anda birden fazla sesin üst üste binmesine izin verir
+        float randomPitch = Random.Range(1f - pitchRandomness, 1f + pitchRandomness);
+        sfxSource.pitch = randomPitch;
+        
         sfxSource.PlayOneShot(clip);
     }
 

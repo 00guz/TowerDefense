@@ -90,11 +90,20 @@ public class GameManager : MonoBehaviour
     }
 
     // 🔹 Oyuncudan can düşür
+    // 🔹 Oyuncudan can düşür
     public void TakeDamageBase(int amount)
     {
         can -= amount;
         if (can < 0) can = 0;
         UpdateUI();
+
+        // ----------------------------------------------------
+        // 🔹 YENİ: HASAR EFEKTİNİ TETİKLE 🔹
+        if (DamageEffect.Instance != null)
+        {
+            DamageEffect.Instance.TriggerFlash();
+        }
+        // ----------------------------------------------------
 
         if (can == 0)
         {
@@ -107,6 +116,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("💀 Oyun Bitti!");
         Time.timeScale = 0f;
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.sfxClip[12]);
         if (gameOverPanel != null)
             gameOverPanel.SetActive(true);
     }
@@ -220,6 +230,7 @@ public class GameManager : MonoBehaviour
     public void LevelFinished()
     {
         Time.timeScale = 0f; // Oyunu durdur
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.sfxClip[13]);
         if(currentLevelIndex == levelDatabase.allLevels.Length-1)
         {
             Debug.Log("🎉 Tüm level'lar tamamlandı!");

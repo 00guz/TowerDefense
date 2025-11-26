@@ -15,6 +15,6 @@ MonoBehaviour:
   enemyName: StoneEnemy
   prefab: {fileID: 8371171878464499086, guid: 1376880f00ca2434588d58d10c95dc79, type: 3}
   speed: 0.75
-  maxHealth: 60
-  reward: 25
+  maxHealth: 80
+  reward: 8
   damageToBase: 5

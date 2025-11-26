@@ -15,8 +15,9 @@ MonoBehaviour:
   towerName: "Ta\u015F Kule"
   prefab: {fileID: 6684747748350755350, guid: 241e974ff4c50fa49a482cf697ff2299, type: 3}
   icon: {fileID: -3446471830066921269, guid: 19670760addb9e7468c5dff2b5d5b40f, type: 3}
-  cost: 100
-  range: 5
-  fireRate: 2
-  damage: 8
+  cost: 70
+  range: 3.5
+  fireRate: 1.2
+  damage: 6
   soruSayisi: 2
+  shootSoundIndex: 2

@@ -104,8 +104,8 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: de526f2e0b58dad44baa481e32487ea3, type: 2}
   Gun: {fileID: 7889151889651262179, guid: 8d5398ecd8c5ecb4f96fe238a1e998e1, type: 3}
   shotEffectPrefab: {fileID: 2286560278358495539, guid: 4500b18abeb6e4044881eaf0c0162500, type: 3}
-  spawnNamlusuYuksekligi: 2
-  spawnYanalOteleme: 0.6
+  spawnNamlusuYuksekligi: 2.1
+  spawnYanalOteleme: 0
 --- !u!61 &-7878856185049254090
 BoxCollider2D:
   m_ObjectHideFlags: 0

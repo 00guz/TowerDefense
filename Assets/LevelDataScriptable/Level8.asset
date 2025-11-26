@@ -13,23 +13,37 @@ MonoBehaviour:
   m_Name: Level8
   m_EditorClassIdentifier: 
   levelName: Level 8
-  startingGold: 150
+  startingGold: 125
   waves:
   - enemyTypes:
-    - {fileID: 11400000, guid: a0037857631b8b54daa6baab7bf09825, type: 2}
-    - {fileID: 11400000, guid: 8d5b295032ee2bd40a9e3ae18986a02a, type: 2}
-    - {fileID: 11400000, guid: ccb49f0af87418d49901d283e66dff68, type: 2}
     - {fileID: 11400000, guid: 7d1576606a4148e4aa71e17b532c31c5, type: 2}
-    dusmanSayisi: 15
+    dusmanSayisi: 10
     dusmanSpawnSuresi: 1
-    dalgaArasiBeklemeSuresi: 15
+    dalgaArasiBeklemeSuresi: 10
   - enemyTypes:
     - {fileID: 11400000, guid: a0037857631b8b54daa6baab7bf09825, type: 2}
-    - {fileID: 11400000, guid: 8d5b295032ee2bd40a9e3ae18986a02a, type: 2}
-    - {fileID: 11400000, guid: ccb49f0af87418d49901d283e66dff68, type: 2}
-    - {fileID: 11400000, guid: 7d1576606a4148e4aa71e17b532c31c5, type: 2}
     dusmanSayisi: 15
-    dusmanSpawnSuresi: 1
+    dusmanSpawnSuresi: 1.5
+    dalgaArasiBeklemeSuresi: 15
+  - enemyTypes:
+    - {fileID: 11400000, guid: ccb49f0af87418d49901d283e66dff68, type: 2}
+    dusmanSayisi: 10
+    dusmanSpawnSuresi: 1.5
+    dalgaArasiBeklemeSuresi: 20
+  - enemyTypes:
+    - {fileID: 11400000, guid: ccb49f0af87418d49901d283e66dff68, type: 2}
+    dusmanSayisi: 12
+    dusmanSpawnSuresi: 1.5
+    dalgaArasiBeklemeSuresi: 20
+  - enemyTypes:
+    - {fileID: 11400000, guid: 8d5b295032ee2bd40a9e3ae18986a02a, type: 2}
+    dusmanSayisi: 12
+    dusmanSpawnSuresi: 2
+    dalgaArasiBeklemeSuresi: 20
+  - enemyTypes:
+    - {fileID: 11400000, guid: 8d5b295032ee2bd40a9e3ae18986a02a, type: 2}
+    dusmanSayisi: 14
+    dusmanSpawnSuresi: 2
     dalgaArasiBeklemeSuresi: 0
   allowedTowers:
   - {fileID: 11400000, guid: a3c12a3ca6380ca47b1f14041ee4213a, type: 2}

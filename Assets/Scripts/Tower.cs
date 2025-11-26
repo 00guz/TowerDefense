@@ -26,10 +26,23 @@ public class Tower : MonoBehaviour
         fireCooldown -= Time.deltaTime;
         if (fireCooldown <= 0f)
         {
+            // Sahnedeki tüm düşmanları bul
             var enemies = FindObjectsOfType<Enemy>();
+
+            // 🔹 YENİ HEDEFLEME MANTIĞI 🔹
             var target = enemies
-                .OrderBy(e => Vector2.Distance(transform.position, e.transform.position))
-                .FirstOrDefault(e => Vector2.Distance(transform.position, e.transform.position) <= data.range);
+                // 1. Önce sadece MENZİL İÇİNDEKİLERİ filtrele
+                .Where(e => Vector2.Distance(transform.position, e.transform.position) <= data.range)
+                
+                // 2. Sonra CAN DEĞERİNE göre sırala (Küçükten büyüğe)
+                // GetCurrentHealth() fonksiyonunu kullanıyoruz
+                .OrderBy(e => e.GetCurrentHealth()) 
+                
+                // 3. (İsteğe Bağlı) Canları eşitse en yakındakini seç (İkincil kural)
+                .ThenBy(e => Vector2.Distance(transform.position, e.transform.position))
+
+                // 4. İlk sıradakini (yani en az canlıyı) al
+                .FirstOrDefault();
 
             if (target != null)
             {
@@ -71,6 +84,22 @@ public class Tower : MonoBehaviour
         {
             GameObject effect = Instantiate(shotEffectPrefab, spawnPosition, rotation);
             Destroy(effect, 1f);
+        }
+
+        if (AudioManager.Instance != null && data.shootSoundIndex >= 0)
+        {
+            // Örneğin data.shootSoundName "OkSesi" ise onu çalar
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.sfxClip[data.shootSoundIndex]);
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (data != null)
+        {
+            Gizmos.color = Color.red;
+            // Kulenin etrafına gerçek menzili (data.range) çizer
+            Gizmos.DrawWireSphere(transform.position, data.range);
         }
     }
     // -------------------------------------------------------------------

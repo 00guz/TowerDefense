@@ -15,8 +15,9 @@ MonoBehaviour:
   towerName: "Ye\u015Fil Kule"
   prefab: {fileID: 6684747748350755350, guid: 767f04aa5a1388b4b8483533f4bfc53a, type: 3}
   icon: {fileID: 396448903893879920, guid: 19670760addb9e7468c5dff2b5d5b40f, type: 3}
-  cost: 150
-  range: 5
-  fireRate: 2
-  damage: 10
+  cost: 125
+  range: 4
+  fireRate: 1.6
+  damage: 7
   soruSayisi: 3
+  shootSoundIndex: 3

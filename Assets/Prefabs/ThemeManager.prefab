@@ -86,6 +86,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   panel_1_ThemeSprites:
   - {fileID: 21300000, guid: 006424d949cb1594a917dae9f29a7940, type: 3}
   - {fileID: 21300000, guid: 0444cd9cc8aebee49baf3bf7d9c924e6, type: 3}
@@ -291,6 +293,16 @@ MonoBehaviour:
   - {fileID: 3233776219013611726, guid: de1cd432821ed324f920fae49eb0cca5, type: 3}
   - {fileID: 21300000, guid: 8eba800a785498b4181bd5b775eaa2f7, type: 3}
   - {fileID: 21300000, guid: 147072f622add8746be414dd69274475, type: 3}
+  panel_42_ThemeSprites:
+  - {fileID: 6942618692823455613, guid: b4094a412819b31439faf14ab9c021e5, type: 3}
+  - {fileID: -5373559922394281575, guid: 6b0244e66313da5448a5d6a85df44283, type: 3}
+  - {fileID: -124690564742620963, guid: c48b61126a5bf504fa9b18b39208860c, type: 3}
+  - {fileID: 4635338433424103531, guid: e821f7cea38c4584eb261b8e16afea5c, type: 3}
+  panel_43_ThemeSprites:
+  - {fileID: 6761338725135010374, guid: 55b8f948751331f40aa9ad487da8335d, type: 3}
+  - {fileID: -5480628865449688324, guid: 6ad1d210c56c4aa4094ce17f50e14991, type: 3}
+  - {fileID: 9117203905297312553, guid: 5bd19fc4ba8a0b348bc0594a94b34e50, type: 3}
+  - {fileID: -8446759841510638, guid: 2dbd26e0dff546141b43696b8793c2b4, type: 3}
   infoButtonThemeSprites:
   - {fileID: 21300000, guid: 2acd06c34d49ceb49b7a0975cf2748fe, type: 3}
   - {fileID: 21300000, guid: 3dee814681e39a144a84a7698abb2f5f, type: 3}

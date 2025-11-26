@@ -1,3 +1,5 @@
+
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,6 +9,8 @@ public class QuestionManager : MonoBehaviour
     public GameObject questionPanel;
     public TextMeshProUGUI questionText;
     public Button[] answerButtons;
+    public GameObject dogruImage;
+    public GameObject yanlisImage;
 
     private System.Action<bool> callback; // Doğru/yanlış sonucunu TowerPlacementManager'a bildirir
 
@@ -79,7 +83,7 @@ public class QuestionManager : MonoBehaviour
                 {
                     bool correct = (index == q.correctIndex);
                     callback?.Invoke(correct);
-                    questionPanel.SetActive(false);
+                    
                 });
             }
             else
@@ -87,5 +91,37 @@ public class QuestionManager : MonoBehaviour
                 answerButtons[i].gameObject.SetActive(false);
             }
         }
+    }
+
+    public void ShowResult(bool correct, System.Action onComplete)
+    {
+        if (correct)
+        {
+            dogruImage.SetActive(true);
+            yanlisImage.SetActive(false);
+        }
+        else
+        {
+            dogruImage.SetActive(false);
+            yanlisImage.SetActive(true);
+        }
+
+        // Coroutine'e bu eylemi gönderiyoruz
+        StartCoroutine(HideResultAfterDelay(onComplete));
+    }
+
+    private IEnumerator HideResultAfterDelay(System.Action onComplete)
+    {
+        // Sonucu gösterme süresi (Örn: 1 saniye bekle)
+        yield return new WaitForSeconds(0.5f); 
+
+        dogruImage.SetActive(false);
+        yanlisImage.SetActive(false);
+
+        
+        questionPanel.SetActive(false);
+
+        // 🔹 SÜRE BİTTİ! Şimdi TowerManager'a haber ver
+        onComplete?.Invoke(); 
     }
 }

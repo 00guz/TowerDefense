@@ -1670,11 +1670,26 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c28ffd59a5e170241829f0abba29dacd, type: 3}
   - {fileID: 8300000, guid: 3f7140e799d1b624384f840aa4895692, type: 3}
   - {fileID: 8300000, guid: 7a15370cad088e145866684c3cbe8c78, type: 3}
-  - {fileID: 8300000, guid: 7a15370cad088e145866684c3cbe8c78, type: 3}
+  - {fileID: 8300000, guid: 1fd594c9c4737f84ebe22facb8adf6fa, type: 3}
   sfxClip:
   - {fileID: 8300000, guid: c1282442b93b8b84f9a3e3c10e9b363d, type: 3}
+  - {fileID: 8300000, guid: 0a8544e61064cdc4d9b26d6bdf7e6b42, type: 3}
+  - {fileID: 8300000, guid: 9c915f234a0502f4db5b1f301d3abf70, type: 3}
+  - {fileID: 8300000, guid: a87246b763ac58f46a79790c6c0ba9b3, type: 3}
+  - {fileID: 8300000, guid: 387a5b8e51a8f6d4ea513298b93a64cb, type: 3}
+  - {fileID: 8300000, guid: 2f9b977dd12796a46b3c48e00761a190, type: 3}
+  - {fileID: 8300000, guid: bb91b0cd492d68a4d94b6f86d1800b38, type: 3}
+  - {fileID: 8300000, guid: 233c098695701d449af0b86939ce878c, type: 3}
+  - {fileID: 8300000, guid: 63a4bdcc2a7ada34993672eb876caf7d, type: 3}
+  - {fileID: 8300000, guid: e9ea83fb24c619e4da20cd29a8658c6d, type: 3}
+  - {fileID: 8300000, guid: 6875f04757c6f1f438ba4a24b600a1b8, type: 3}
+  - {fileID: 8300000, guid: 588aaa628fc82c24db6e74b2e195374a, type: 3}
+  - {fileID: 8300000, guid: d9fa1bb78b10e6d459e0592ca4b44488, type: 3}
+  - {fileID: 8300000, guid: 7abe26b324a570f408aeb6f1a18da3d9, type: 3}
+  - {fileID: 8300000, guid: d5ec709ad0f1ab44c97030428fef2869, type: 3}
   defaultMusicVolume: 0.5
   defaultSFXVolume: 0.5
+  pitchRandomness: 0.1
 --- !u!4 &1132281160
 Transform:
   m_ObjectHideFlags: 0

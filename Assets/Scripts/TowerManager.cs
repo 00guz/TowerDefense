@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -190,11 +191,21 @@ public class TowerManager : MonoBehaviour
 
             questionManager.AskQuestion((bool correct) =>
             {
-                if (correct)
+                if (correct){
                     correctAnswers++;
-                else
+                    AudioManager.Instance.PlaySFX(AudioManager.Instance.sfxClip[10]);
+                    questionManager.ShowResult(true, () => {
+                            answered = true; 
+                        });
+                }
+
+                else{
                     correctAnswers = -1; // yanlış cevap işareti
-                answered = true;
+                    AudioManager.Instance.PlaySFX(AudioManager.Instance.sfxClip[11]);
+                    questionManager.ShowResult(false, () => {
+                            answered = true; 
+                            });
+                }
             });
 
             yield return new WaitUntil(() => answered);
@@ -216,7 +227,7 @@ public class TowerManager : MonoBehaviour
         if (rangeIndicator != null)
         {
             rangeIndicator.gameObject.SetActive(true);
-            float diameter = tower.range * 3f;
+            float diameter = (tower.range * 2f) / ghostRenderer.transform.localScale.x;
             rangeIndicator.localScale = new Vector3(diameter, diameter, 1f); // 2D için Z=1
         }
 

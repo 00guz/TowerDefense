@@ -11,4 +11,8 @@ public class TowerData : ScriptableObject
     public float fireRate = 1f;
     public int damage = 2;
     public int soruSayisi = 1;
+
+    [Header("Ses Ayarları")]
+    [Tooltip("AudioManager'daki sesin sırası")]
+    public int shootSoundIndex;
 }
