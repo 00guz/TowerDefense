@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a17f0c4794c7e3409271496ecc49579, type: 3}
   m_Name: NetherTower
   m_EditorClassIdentifier: 
-  towerName: Nether Kule
+  towerName: Lav Kule
   prefab: {fileID: 6684747748350755350, guid: cd7101722dacd064885a5579ea2fead5, type: 3}
   icon: {fileID: -789883098786815875, guid: 4312cd28ed5515e46961b5c9e37f9edd, type: 3}
-  cost: 50
-  range: 5
-  fireRate: 2
-  damage: 8
-  soruSayisi: 1
+  cost: 70
+  range: 4
+  fireRate: 1.4
+  damage: 7
+  soruSayisi: 3
   shootSoundIndex: 8

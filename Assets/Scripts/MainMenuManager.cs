@@ -20,16 +20,37 @@ public class MainMenuManager : MonoBehaviour
 
     public void LevelsOpen()
     {
-        levels.SetActive(true);
+        UIBubbleTween bubble = levels.GetComponent<UIBubbleTween>();
+        if (bubble != null) 
+            bubble.Open();
+        else 
+            levels.SetActive(true);
+    }
+
+    public void LevelsClose()
+    {
+        UIBubbleTween bubble = levels.GetComponent<UIBubbleTween>();
+        if (bubble != null) 
+            bubble.Close();
+        else 
+            levels.SetActive(false);
     }
 
     public void settingsOpen()
     {
-        settings.SetActive(true);
+        UIBubbleTween bubble = settings.GetComponent<UIBubbleTween>();
+        if (bubble != null) 
+            bubble.Open();
+        else 
+            settings.SetActive(true);
     }
 
     public void settingsClose()
     {
-        settings.SetActive(false);
+        UIBubbleTween bubble = settings.GetComponent<UIBubbleTween>();
+        if (bubble != null) 
+            bubble.Close();
+        else 
+            settings.SetActive(false);
     }
 }

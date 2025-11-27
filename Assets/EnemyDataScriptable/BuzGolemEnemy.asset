@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: Buz Golem
   prefab: {fileID: 4006744111291592791, guid: dc9e4df5db5aeb642a368217c9e189fb, type: 3}
-  speed: 1
+  speed: 0.75
   maxHealth: 100
   reward: 10
   damageToBase: 4

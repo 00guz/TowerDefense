@@ -15,9 +15,9 @@ MonoBehaviour:
   towerName: Saray Kule
   prefab: {fileID: 6684747748350755350, guid: 1483108fd0615ce44a239731daf5abc5, type: 3}
   icon: {fileID: 8623333193184404569, guid: 19670760addb9e7468c5dff2b5d5b40f, type: 3}
-  cost: 150
+  cost: 130
   range: 5
-  fireRate: 2
-  damage: 10
-  soruSayisi: 3
-  shootSoundIndex: 4
+  fireRate: 1.8
+  damage: 9
+  soruSayisi: 4
+  shootSoundIndex: 5

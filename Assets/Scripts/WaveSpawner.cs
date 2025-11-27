@@ -105,13 +105,14 @@ public class WaveSpawner : MonoBehaviour
                 yield return new WaitForSeconds(wave.dusmanSpawnSuresi);
             }
 
+            
+
+            yield return new WaitForSeconds(wave.dalgaArasiBeklemeSuresi);
             if (currentWaveIndex < totalWaves)
             {
                 currentWaveIndex++;
                 GameManager.Instance.UpdateUI();
             }
-
-            yield return new WaitForSeconds(wave.dalgaArasiBeklemeSuresi);
         }
 
         spawningFinished = true;

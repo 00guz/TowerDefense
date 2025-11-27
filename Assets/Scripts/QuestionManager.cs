@@ -12,7 +12,7 @@ public class QuestionManager : MonoBehaviour
     public GameObject dogruImage;
     public GameObject yanlisImage;
 
-    private System.Action<bool> callback; // Doğru/yanlış sonucunu TowerPlacementManager'a bildirir
+    private System.Action<bool> callback; // Doğru/yanlış sonucunu TowerManager'a bildirir
 
     [System.Serializable]
     public class Question
@@ -63,7 +63,11 @@ public class QuestionManager : MonoBehaviour
         callback = resultCallback;
 
         // Paneli aç
-        questionPanel.SetActive(true);
+        UIBubbleTween bubble = questionPanel.GetComponent<UIBubbleTween>();
+        if (bubble != null) 
+            bubble.Open();
+        else 
+            questionPanel.SetActive(true);
 
         // Rastgele soru seç
         Question q = sampleQuestions[Random.Range(0, sampleQuestions.Length)];
@@ -119,7 +123,11 @@ public class QuestionManager : MonoBehaviour
         yanlisImage.SetActive(false);
 
         
-        questionPanel.SetActive(false);
+        UIBubbleTween bubble = questionPanel.GetComponent<UIBubbleTween>();
+        if (bubble != null) 
+            bubble.Close();
+        else 
+            questionPanel.SetActive(false);
 
         // 🔹 SÜRE BİTTİ! Şimdi TowerManager'a haber ver
         onComplete?.Invoke(); 

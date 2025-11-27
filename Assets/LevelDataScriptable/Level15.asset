@@ -16,23 +16,38 @@ MonoBehaviour:
   startingGold: 150
   waves:
   - enemyTypes:
-    - {fileID: 11400000, guid: a0037857631b8b54daa6baab7bf09825, type: 2}
-    - {fileID: 11400000, guid: 8d5b295032ee2bd40a9e3ae18986a02a, type: 2}
-    - {fileID: 11400000, guid: ccb49f0af87418d49901d283e66dff68, type: 2}
-    - {fileID: 11400000, guid: 7d1576606a4148e4aa71e17b532c31c5, type: 2}
-    dusmanSayisi: 15
+    - {fileID: 11400000, guid: 88ce6951e9347ba4c9ddd9fceda3938b, type: 2}
+    dusmanSayisi: 7
     dusmanSpawnSuresi: 1
     dalgaArasiBeklemeSuresi: 15
   - enemyTypes:
-    - {fileID: 11400000, guid: a0037857631b8b54daa6baab7bf09825, type: 2}
-    - {fileID: 11400000, guid: 8d5b295032ee2bd40a9e3ae18986a02a, type: 2}
-    - {fileID: 11400000, guid: ccb49f0af87418d49901d283e66dff68, type: 2}
-    - {fileID: 11400000, guid: 7d1576606a4148e4aa71e17b532c31c5, type: 2}
-    dusmanSayisi: 15
-    dusmanSpawnSuresi: 1
-    dalgaArasiBeklemeSuresi: 0
+    - {fileID: 11400000, guid: 885ca848564acf8488dfc4cc5250cbd9, type: 2}
+    dusmanSayisi: 5
+    dusmanSpawnSuresi: 1.25
+    dalgaArasiBeklemeSuresi: 15
+  - enemyTypes:
+    - {fileID: 11400000, guid: 7965eb2aa07b18a47b7577eab20f76fb, type: 2}
+    dusmanSayisi: 10
+    dusmanSpawnSuresi: 2
+    dalgaArasiBeklemeSuresi: 15
+  - enemyTypes:
+    - {fileID: 11400000, guid: 7965eb2aa07b18a47b7577eab20f76fb, type: 2}
+    dusmanSayisi: 12
+    dusmanSpawnSuresi: 2
+    dalgaArasiBeklemeSuresi: 15
+  - enemyTypes:
+    - {fileID: 11400000, guid: 5e659369f457f1146ac6b4c0be38c80c, type: 2}
+    dusmanSayisi: 12
+    dusmanSpawnSuresi: 2.5
+    dalgaArasiBeklemeSuresi: 15
+  - enemyTypes:
+    - {fileID: 11400000, guid: 5e659369f457f1146ac6b4c0be38c80c, type: 2}
+    dusmanSayisi: 14
+    dusmanSpawnSuresi: 2.5
+    dalgaArasiBeklemeSuresi: 15
   allowedTowers:
-  - {fileID: 11400000, guid: a3c12a3ca6380ca47b1f14041ee4213a, type: 2}
-  - {fileID: 11400000, guid: a40025fa93148e34985e772851541c52, type: 2}
-  - {fileID: 11400000, guid: 567c1e03add2b7f49a715b0ac6ca116d, type: 2}
+  - {fileID: 11400000, guid: 84744fe0ccf3ce94d92f8935b9851977, type: 2}
+  - {fileID: 11400000, guid: dd83d02bd40ac89469ddd26fb5d91c1f, type: 2}
+  - {fileID: 11400000, guid: 0b05a30c0e5a1944fa4ef247bdfd505b, type: 2}
+  - {fileID: 11400000, guid: 74852d34ccd197d44bdc32086357b6b8, type: 2}
   tileMapData: {fileID: 11400000, guid: 2d7e0360944d23d4980f88a531c7f95c, type: 2}

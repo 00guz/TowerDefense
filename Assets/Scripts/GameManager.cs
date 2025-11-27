@@ -118,7 +118,14 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
         AudioManager.Instance.PlaySFX(AudioManager.Instance.sfxClip[12]);
         if (gameOverPanel != null)
-            gameOverPanel.SetActive(true);
+        {
+            UIBubbleTween bubble = gameOverPanel.GetComponent<UIBubbleTween>();
+            if (bubble != null) 
+                bubble.Open();
+            else 
+                gameOverPanel.SetActive(true);
+        }
+            
     }
 
     // 🔹 Arayüz güncelleme
@@ -234,17 +241,30 @@ public class GameManager : MonoBehaviour
         if(currentLevelIndex == levelDatabase.allLevels.Length-1)
         {
             Debug.Log("🎉 Tüm level'lar tamamlandı!");
-            AllLevelCompletedPanel.SetActive(true);
+
+            UIBubbleTween bubbles = AllLevelCompletedPanel.GetComponent<UIBubbleTween>();
+            if (bubbles != null) 
+                bubbles.Open();
+            else 
+                AllLevelCompletedPanel.SetActive(true);
             return;
         }
-        CongratsPanel.SetActive(true);
+        UIBubbleTween bubble = CongratsPanel.GetComponent<UIBubbleTween>();
+        if (bubble != null) 
+            bubble.Open();
+        else 
+            CongratsPanel.SetActive(true);
     }
 
     // 🔹 Butondan çağrılır (Sonraki level)
     // 🔹 Butondan çağrılır (Sonraki level)
     public void NextLevel()
     {
-        CongratsPanel.SetActive(false);
+        UIBubbleTween bubble = CongratsPanel.GetComponent<UIBubbleTween>();
+        if (bubble != null) 
+            bubble.Close();
+        else 
+            CongratsPanel.SetActive(false);
         Time.timeScale = 1f;
 
         currentLevelIndex++;
@@ -265,6 +285,7 @@ public class GameManager : MonoBehaviour
         pauseMenuPanel.SetActive(false);
         CongratsPanel.SetActive(false);
         
+        
         // 1. Önce Kuleleri ve Canı sıfırla
         LevelResetter.Instance.ResetLevel();
         
@@ -282,23 +303,42 @@ public class GameManager : MonoBehaviour
     }
     public void settingsOpen()
     {
-        settingsPanel.SetActive(true);
+        UIBubbleTween bubble = settingsPanel.GetComponent<UIBubbleTween>();
+        if (bubble != null) 
+            bubble.Open();
+        else 
+            settingsPanel.SetActive(true);
         pauseMenuPanel.SetActive(false);
     }
     public void settingsClose()
     {
-        settingsPanel.SetActive(false);
+        UIBubbleTween bubble = settingsPanel.GetComponent<UIBubbleTween>();
+        if (bubble != null) 
+            bubble.Close();
+        else 
+            settingsPanel.SetActive(false);
+        
         pauseMenuPanel.SetActive(true);
     }
     public void PauseGame()
     {
+        UIBubbleTween bubble = pauseMenuPanel.GetComponent<UIBubbleTween>();
+        if (bubble != null) 
+            bubble.Open();
+        else 
+            pauseMenuPanel.SetActive(true);
         Time.timeScale = 0f;
-        pauseMenuPanel.SetActive(true);
+        
     }
     public void ResumeGame()
     {
         Time.timeScale = 1f;
-        pauseMenuPanel.SetActive(false);
+
+        UIBubbleTween bubble = pauseMenuPanel.GetComponent<UIBubbleTween>();
+        if (bubble != null) 
+            bubble.Close();
+        else 
+            pauseMenuPanel.SetActive(false);
     }
 
 }

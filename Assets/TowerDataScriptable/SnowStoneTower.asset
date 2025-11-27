@@ -15,9 +15,9 @@ MonoBehaviour:
   towerName: "Kar Ta\u015F Kule"
   prefab: {fileID: 6684747748350755350, guid: 7c836bd99db6ccd4196384f9d7e4c6fd, type: 3}
   icon: {fileID: 4498254706538010417, guid: 4312cd28ed5515e46961b5c9e37f9edd, type: 3}
-  cost: 100
-  range: 5
-  fireRate: 2
-  damage: 8
-  soruSayisi: 2
+  cost: 70
+  range: 4
+  fireRate: 1.2
+  damage: 6
+  soruSayisi: 3
   shootSoundIndex: 2

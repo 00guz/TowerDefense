@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: Kar Kurdu
   prefab: {fileID: 4006744111291592791, guid: f455db5040434ce4f8667cf6e926743b, type: 3}
-  speed: 1.5
-  maxHealth: 100
-  reward: 8
-  damageToBase: 3
+  speed: 1.25
+  maxHealth: 90
+  reward: 10
+  damageToBase: 4

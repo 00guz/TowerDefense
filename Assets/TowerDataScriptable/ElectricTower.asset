@@ -15,9 +15,9 @@ MonoBehaviour:
   towerName: Elektrik Kule
   prefab: {fileID: 6684747748350755350, guid: c85d5f32b26229e408b5357119197ca4, type: 3}
   icon: {fileID: -3499782303461749033, guid: 19670760addb9e7468c5dff2b5d5b40f, type: 3}
-  cost: 150
-  range: 5
-  fireRate: 2
-  damage: 10
+  cost: 110
+  range: 4
+  fireRate: 1.6
+  damage: 8
   soruSayisi: 3
   shootSoundIndex: 6

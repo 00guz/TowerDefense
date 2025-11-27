@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: "\xC7\xF6l Hayaleti"
   prefab: {fileID: 4006744111291592791, guid: 1f508b3ec9f103049a95f38efe73c2b2, type: 3}
-  speed: 1.5
-  maxHealth: 100
+  speed: 1.25
+  maxHealth: 120
   reward: 10
-  damageToBase: 2
+  damageToBase: 3
