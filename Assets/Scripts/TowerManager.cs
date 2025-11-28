@@ -152,6 +152,7 @@ public class TowerManager : MonoBehaviour
     {
         Instantiate(selectedTower.prefab, ghostRenderer.transform.position, Quaternion.identity);
         Debug.Log($"✅ {selectedTower.towerName} yerleştirildi!");
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.sfxClip[15]);
 
         selectedTower = null;
         ghostRenderer.enabled = false;

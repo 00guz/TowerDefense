@@ -135,7 +135,7 @@ public class GameManager : MonoBehaviour
             altinText.text = "Altın: " + altin;
 
         if (levelText != null && levelDatabase.allLevels.Length > 0)
-            levelText.text = "Level: " + (currentLevelIndex + 1);
+            levelText.text = "Seviye: " + (currentLevelIndex + 1);
 
         if(waveText != null)
             waveText.text = "Dalga: " + waveSpawner.currentWaveIndex  + "/" + waveSpawner.totalWaves;
